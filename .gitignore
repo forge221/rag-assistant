@@ -1,0 +1,15 @@
+# Python's virtual environment (huge, and each computer makes its own)
+venv/
+
+# PyInstaller output (rebuilt from scratch every time)
+build/
+dist/
+*.spec
+
+# Python's compiled-file cache
+__pycache__/
+
+# Your documents and generated data (personal, and the PDFs are other people's work)
+docs/
+cache/
+chroma_db/

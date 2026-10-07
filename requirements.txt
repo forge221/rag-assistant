@@ -1,0 +1,7 @@
+sentence-transformers
+numpy
+chromadb
+ollama
+pymupdf
+customtkinter
+pyinstaller
