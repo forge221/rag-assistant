@@ -28,7 +28,7 @@ jobs:
       - name: Build with PyInstaller
         run: pyinstaller --name "RAG Assistant" --noconfirm --windowed --collect-all chromadb --collect-data customtkinter app.py
 
-            - name: Zip the Windows build
+      - name: Zip the Windows build
         if: runner.os == 'Windows'
         run: |
           Copy-Item README.txt "dist/RAG Assistant/"
